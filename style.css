@@ -1,0 +1,182 @@
+.coffee{
+    background-image: url(https://thumbs.dreamstime.com/b/espresso-coffee-cup-beans-vintage-table-90374872.jpg);
+    width: 2505px;
+    height: 900px;
+    background-repeat: no-repeat;
+}
+
+  
+.header{
+    background-color: rgb(160, 84, 30);
+    height: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Plaster', cursive;
+    color: rgb(70, 23, 10);
+}
+body{
+    background-color: rgb(208, 159, 96);
+    
+}
+.iconheader{
+    font-size: 60px;
+    padding: 20px;
+}
+.iconheader:hover{
+    color: black;
+}
+.stickyhead{
+    text-align: center;
+    justify-content: center;
+    font-family: 'Plaster', cursive;
+    background-color: rgb(160, 84, 30);
+    height: 30px;
+    color: rgb(70, 23, 10);
+    position: sticky;
+    top: 0px;
+   
+    
+}
+.body{
+   
+    background-color: rgb(208, 159, 96);
+
+}
+#heading1{
+    text-align: center;
+    font-size: 40px;
+    padding-top: 0;
+    margin-top: 0;
+    color: rgb(63, 23, 7);   
+}
+
+#heading1:hover{
+    text-shadow: 2px 2px 3px rgb(88, 36, 5);
+}
+#heading2{
+    text-align: center;
+    margin-left: 600px;
+    font-size: 30px;
+    
+    
+}
+#heading2:hover{
+    text-shadow: 2px 2px 3px rgb(88, 36, 5);
+}
+.boxcontent{
+    border: 2px solid rgb(73, 27, 9);
+    width: 500px;
+    margin-left: 450px;
+    
+   
+}
+.boxcontent:hover{
+    box-shadow: 1px 0pc 1px 5px rgb(88, 36, 5);
+}
+
+/* types */
+.pheading{
+    font-size: 40px;
+    text-align: center;
+    padding: 10px;
+    font-family: 'Permanent Marker', cursive;
+    text-shadow: 2px 2px 3px rgb(88, 36, 5);
+}
+.pheading:hover{
+    text-shadow: 2px 2px 3px rgb(162, 105, 72);
+}
+.paragraph{
+    padding: 10px 100px 10px;
+}
+.toprow{
+    display: flex;
+}
+.top{
+    width: 610px;
+   margin-left: 440px;
+}
+.topcol2{
+    margin-left: 40px;
+    width: 600px;
+
+}
+.topcol4{
+    width: 350px;
+}
+
+.h6header{
+    font-family: 'Permanent Marker', cursive;
+    font-size: 15px;
+}
+.rowgallery{
+    display: flex;
+    margin: 10px;
+   
+}
+.colgallery{
+    margin: 30px;
+}
+.galleryimg{
+    width: 400px;
+}
+.galleryimg:hover{
+    border: 3px solid rgb(78, 24, 5);
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px rgb(102, 67, 54);
+}
+
+  
+
+#contact{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+form:hover{
+    border: 1px ridge rgb(110, 54, 13);
+    border-radius: 30px;
+    background-color: rgb(125, 60, 19);
+}
+.input{
+    padding: 10px;
+    margin: 20px;
+}
+.send{
+    padding: 15px 20px;
+    background-color: rgb(156, 67, 31);
+    border-radius: 10px;
+}
+.send:hover{
+    color: rgb(231, 227, 236);
+    background-color: rgb(170, 120, 76);
+
+}
+input:hover{
+    border: 1px ridge rgb(70, 23, 10);
+    border-radius: 10px;
+}
+textarea:hover{
+    border: 1px ridge rgb(70, 23, 10);
+    border-radius: 10px;
+}
+.footer{
+    display: flex;
+    
+    color: rgb(70, 23, 10);
+    background-color: rgb(142, 73, 28);
+}
+.rowfooter{
+    display: flex;
+    margin-left: 300px;
+}
+.colfooter{
+    width: 400px;
+}
